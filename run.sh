@@ -90,7 +90,7 @@ clear
 		echo -e "\e[1;35m-------------------------------------------------";
 		echo -e "\e[1;33m         Semoga Harimu Menyenangkan        ";
 		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;36m             Kuchiyose Tools v.1           ";
+		echo -e "\e[1;36m             Kuchiyose Tools v0.1           ";
 		echo -e "\e[1;35m-------------------------------------------------";
 		echo -e "\e[1;37m         Jangan Otak Atik Script Cok            ";
 		echo -e "\e[1;35m-------------------------------------------------\n\e[1;37m";
