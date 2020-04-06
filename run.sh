@@ -96,11 +96,8 @@ clear
 		echo -e "\e[1;35m-------------------------------------------------\n\e[1;37m";
 
 #menu
-echo -e "\e[1;34m[\e[1;36m1\e[1;34m]\e[1;31m :\e[1;37m FAKE GPS";
-echo -e "\e[1;34m[\e[1;36m2\e[1;34m]\e[1;31m :\e[1;37m All Tkp";
-echo -e "\e[1;34m[\e[1;36m3\e[1;34m]\e[1;31m :\e[1;37m CashBack";
-echo -e "\e[1;34m[\e[1;36m4\e[1;34m]\e[1;31m :\e[1;37m GoRide/GoCar";
-echo -e "\e[1;34m[\e[1;36m5\e[1;34m]\e[1;31m :\e[1;32m Keluar\e[1;37m";
+echo -e "\e[1;34m[\e[1;36m1\e[1;34m]\e[1;31m :\e[1;37m GOFOOD 05 April 2020";
+echo -e "\e[1;34m[\e[1;36m2\e[1;34m]\e[1;31m :\e[1;32m Keluar\e[1;37m";
 read -p $'TermuxID\e[1;31m ~# \e[1;33m' opt2
 case $opt2 in
 	1) #menu1
@@ -110,51 +107,12 @@ case $opt2 in
 		echo -e "\e[1;35m-------------------------------------------------";
 		echo -e "\e[1;33m         Semoga Harimu Menyenangkan        ";
 		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;34m                FAKE GPS            ";
+		echo -e "\e[1;34m            EDISI 05 APRIL 2020            ";
 		echo -e "\e[1;35m-------------------------------------------------";
 		echo -e "\e[1;37m         Jangan Otak Atik Script Cok            ";
 		echo -e "\e[1;35m-------------------------------------------------\n\e[1;37m";
 		php lib/all.php
 
-	;;
-	2) #menu2
-		clear
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;32m               FORMAT 08***              ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;33m         Semoga Harimu Menyenangkan        ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;34m               TKP TERSERAH            ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;37m         Jangan Otak Atik Script Cok            ";
-		echo -e "\e[1;35m-------------------------------------------------\n\e[1;37m";
-		php lib/jakarta.php
-	;;
-	3) #menu3
-		clear
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;32m               FORMAT 08***              ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;33m         Semoga Harimu Menyenangkan        ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;34m                CASHBACK            ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;37m         Jangan Otak Atik Script Cok            ";
-		echo -e "\e[1;35m-------------------------------------------------\n\e[1;37m";
-		php lib/cs.php
-	;;
-	4) #menu3
-		clear
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;32m               FORMAT 08***              ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;33m         Semoga Harimu Menyenangkan        ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;34m               GoRide/GoCar            ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;37m         Jangan Otak Atik Script Cok            ";
-		echo -e "\e[1;35m-------------------------------------------------\n\e[1;37m";
-		php lib/ride.php
 	;;
 	5) #menu4
 		clear
