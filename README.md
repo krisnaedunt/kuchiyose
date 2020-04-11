@@ -1,4 +1,4 @@
-# kuchiyose Tools v0.1
+# kuchiyose Tools v2.1
 khusus pengguna baru :)
 ## Cara Pemakai'an & Installasinya
  * pkg update && pkg upgrade -y
