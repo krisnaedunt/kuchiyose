@@ -51,7 +51,7 @@ $nama = nama();
 					echo color("yellow",".");
 					sleep(1);
 				}
-				$code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESENGOFOOD010420A"}');
+				$code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD010420A"}');
 				$message = fetch_value($code1,'"message":"','"');
 				if(strpos($code1, 'You can use this promo now...')){
 					echo "\n".color("green","[+] Message: ".$message);
@@ -82,7 +82,7 @@ $nama = nama();
 						sleep(1);
 					}
 					sleep(3);
-					$goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PAKEGOFOOD010420B"}');
+					$goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD010420B"}');
 					$message1 = fetch_value($goride,'"message":"','"');
 					echo "\n".color("green","[+] Message: ".$message1);
 							
