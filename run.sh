@@ -85,36 +85,38 @@ clear
 		;;
 	esac
 		clear
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;32m            GOJEK VERSION BIO SOLAR              ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;33m         Semoga Harimu Menyenangkan        ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;36m             Kuchiyose Tools v0.1           ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;37m         Jangan Otak Atik Script Cok            ";
-		echo -e "\e[1;35m-------------------------------------------------\n\e[1;37m";
+					  echo -e "\e[93m          ╔══════════════════════════════════╗";
+					  echo -e "\e[93m          ║  \e[91mVOUCHER YANG TERSEDIA DI TERMUX \e[93m║";
+					  echo -e "\e[93m          ║▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬║";
+					  echo -e "\e[93m          ║ ✓ VOUCHER GOFOOD 15K MINBEL 30K  ║";
+					  echo -e "\e[93m          ║ ✓ VOUCHER GOFOOD 10K MINBEL 30K  ║";
+					  echo -e "\e[93m          ║ ✓ VOUCHER GOFOOD  5K MINBEL 30K  ║";
+					  echo -e "\e[93m          ║ ✓ VOUCHER GORIDE  3K TUNAI       ║";
+					  echo -e "\e[93m          ║ ✓ VOUCHER GOCAR   5K CASHBACK    ║";
+					  echo -e "\e[93m          ║ ✓ VOUCHER GORIDE 99% CASHBACK    ║";
+					  echo -e "\e[93m          ║ ✓ VOUCHER GOCAR  99% CASHBACK    ║";
+					  echo -e "\e[93m          ║                                  ║";
+					  echo -e "\e[93m          ║▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬║";
+					  echo -e "\e[93m          ║        \e[94mChannel TermuxID          \e[93m║";
+					  echo -e "\e[93m          ╚══════════════════════════════════╝";
 
 #menu
-echo -e "\e[1;34m[\e[1;36m1\e[1;34m]\e[1;31m :\e[1;37m GOFOOD 05 April 2020";
+echo -e "\e[1;34m[\e[1;36m1\e[1;34m]\e[1;31m :\e[1;37m GOFOOD 16 April 2020";
 echo -e "\e[1;34m[\e[1;36m2\e[1;34m]\e[1;31m :\e[1;32m Keluar\e[1;37m";
 read -p $'TermuxID\e[1;31m ~# \e[1;33m' opt2
 case $opt2 in
 	1) #menu1
 		clear
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;32m               FORMAT 08***              ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;33m         Semoga Harimu Menyenangkan        ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;34m            EDISI 05 APRIL 2020            ";
-		echo -e "\e[1;35m-------------------------------------------------";
-		echo -e "\e[1;37m         Jangan Otak Atik Script Cok            ";
-		echo -e "\e[1;35m-------------------------------------------------\n\e[1;37m";
+					  echo -e "\e[92m          ╔══════════════════════════════════╗";
+					  echo -e "\e[92m          ║    SELAMAT DATANG DI TERMUXID    ║";
+					  echo -e "\e[92m          ║ AUTO REGISTRASI & REDEEM VOUCHER ║";
+					  echo -e "\e[92m          ║   UNTUK REGISTRASI CALL ADMIN    ║";
+					  echo -e "\e[92m          ║   KUCHIYOSE PREMIERE VERSI 2.3   ║";
+					  echo -e "\e[92m          ╚══════════════════════════════════╝";
 		php lib/all.php
 
 	;;
-	5) #menu4
+	2) #menu4
 		clear
 		echo -e "${yellow}Oke Kita Putus :)";
 		sleep 2
@@ -125,6 +127,6 @@ case $opt2 in
 		echo -e "${yellow}Masukin Yang Benar Lah Cok :(";
 		sleep 2
 		clear
-		bash install.sh
+		bash run.sh
 	;;
 esac
