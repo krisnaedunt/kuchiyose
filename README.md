@@ -1,4 +1,4 @@
-# kuchiyose Tools v2.1
+# kuchiyose Premiere v2.3
 khusus pengguna baru :)
 ## Cara Pemakai'an & Installasinya
  * pkg update && pkg upgrade -y
